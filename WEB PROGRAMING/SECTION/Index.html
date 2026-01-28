@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myretso</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-brand me-auto" href="#">MyResto</a>
+      <ul class="navbar-nav">
+        <li class="nav-item me-5">
+          <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i>Home</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#"><i class="bi bi-playstation"></i>Produk</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#"><i class="bi bi-scissors"></i>Promo</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#"><i class="bi bi-telephone"></i>Kontak</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" tabindex="-1" aria-disabled="true"><i class="bi bi-cart"></i>Keranjang</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid banner d-flex align-items-center">
+  <div class="container">
+       <h1 class="text-light text-center display-5 mb-1">Selamat Datang di Rumah makan padang</h1>
+       <h2 class="text-light text-center display-7 mb-1">Tuan Mau Makan Apa?</h2>
+        <div class="input-group">
+          <select class="form-select" id="inputGroupSelect04" >
+           <option selected>Makanan</option>
+           <option value="1">Rendang</option>
+           <option value="2">Ayam Pop</option>
+           <option value="3">Ayam gulai</option>
+          </select>
+          <button class="btn btn-lg btn-outline-warning text-light" type="button">Cari</button>
+       </div>
+  </div>
+</div>
+<div class="container-fluid py-5">
+  <div class="container">
+    <h2 class="text-center">Macam Macam Menu Kita</h2>
+
+    <div class="row mt-5 justify-content-center g-4">
+
+      <!-- Card 1 -->
+      <div class="col-12 col-md-4 hovered-card">
+        <div class="card h-100">
+          <img src="Rendang.jpg" class="card-img-top" alt="Orange Ice">
+          <div class="card-body">
+            <h5 class="card-title">
+              Rendang
+            </h5>
+            <p class="card-text">
+              Rendang adalah masakan khas Minangkabau berbahan daging sapi dan rempah-rempah.
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-md-4 hovered-card">
+        <div class="card h-100">
+          <img src="Ayam Pop.webp" class="card-img-top" alt="Honey Pancake">
+          <div class="card-body">
+            <h5 class="card-title">
+              Ayam Pop
+            </h5>
+            <p class="card-text">
+              Ayam Pop adalah masakan khas Minangkabau berbahan ayam dengan rasa gurih dan lembut.
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-md-4 hovered-card">
+        <div class="card h-100">
+          <img src="Ayam Gulai.jpg" class="card-img-top" alt="Coffee">
+          <div class="card-body">
+            <h5 class="card-title">
+              Ayam Gulai
+            </h5>
+            <p class="card-text">
+              Ayam Gulai adalah masakan khas Minangkabau berbahan ayam dengan kuah santan berbumbu rempah.
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
