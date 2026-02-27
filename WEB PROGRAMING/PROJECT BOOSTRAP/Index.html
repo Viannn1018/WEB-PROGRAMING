@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masakan Padang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-brand me-auto" href="#">MyResto</a>
+      <ul class="navbar-nav">
+        <li class="nav-item me-5">
+          <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i>Home</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#"><i class="bi bi-playstation"></i>Produk</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#"><i class="bi bi-scissors"></i>Promo</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#"><i class="bi bi-telephone"></i>Kontak</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" tabindex="-1" aria-disabled="true"><i class="bi bi-cart"></i>Keranjang</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid banner d-flex align-items-center">
+  <div class="container">
+       <h1 class="text-light text-center display-5 mb-1">Selamat Datang di Rumah makan padang</h1>
+       <h2 class="text-light text-center display-7 mb-1">Tuan Mau Makan Apa?</h2>
+        <div class="input-group">
+          <select class="form-select" id="inputGroupSelect04" >
+           <option selected>Makanan</option>
+           <option value="1">Rendang</option>
+           <option value="2">Ayam Pop</option>
+           <option value="3">Ayam gulai</option>
+          </select>
+          <button class="btn btn-lg btn-outline-warning text-light" type="button">Cari</button>
+       </div>
+  </div>
+</div>
+<div class="container-fluid py-5">
+  <div class="container">
+    <h2 class="text-center">Promo Minggu ini</h2>
+
+    <div class="row mt-5 justify-content-center g-4">
+
+      <!-- Card 1 -->
+      <div class="col-12 col-md-4 hovered-card">
+        <div class="card h-100">
+          <img src="Rendang.jpg" class="card-img-top" alt="Orange Ice">
+          <div class="card-body">
+            <h5 class="card-title">
+              Rendang
+            </h5>
+            <p class="card-text">
+              Promo Rendang Spesial Nikmati rendang daging sapi empuk dengan bumbu khas Padang. Setiap pembelian rendang gratis nasi putih hangat.
+
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-md-4 hovered-card">
+        <div class="card h-100">
+          <img src="Ayam Pop.webp" class="card-img-top" alt="Honey Pancake">
+          <div class="card-body">
+            <h5 class="card-title">
+              Ayam Pop
+            </h5>
+            <p class="card-text">
+              Promo Ayam Pop Favorit Ayam pop gurih dan lembut, dimasak dengan resep khas Minangkabau. Disajikan lengkap dengan nasi, harga lebih hemat.
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-md-4 hovered-card">
+        <div class="card h-100">
+          <img src="Ayam Gulai.jpg" class="card-img-top" alt="Coffee">
+          <div class="card-body">
+            <h5 class="card-title">
+              Ayam Gulai
+            </h5>
+            <p class="card-text">
+              Promo Ayam Gulai Lezat Ayam gulai dengan kuah santan kental dan rempah yang kuat. Beli ayam gulai gratis minuman untuk menemani makan.
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--service-->
+    <div class="container-fluid py-5 bg-dark">
+      <div class="container">
+        <h2 class="text-light text-center mb-5">Pelayanan Kami</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="d-flex justify-content-center">
+              <div class="icon-service d-flex align-items-center justify-content-center">
+                <i class="bi bi-bicycle display-5"></i>
+              </div>
+            </div>
+            <div class="mt-3 text-white text-center">
+              <h5>Delivery</h5>
+              <p>Kami melayani pengiriman ke berbagai kota, 
+                nikmati pelayanan dari kami, untuk memudahkan transaksi Anda</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="d-flex justify-content-center">
+              <div class="icon-service d-flex align-items-center justify-content-center">
+                <i class="bi bi-basket display-5"></i>
+              </div>
+            </div>
+            <div class="mt-3 text-white text-center">
+              <h5>Take Away</h5>
+              <p>Kami melayani proses take away, 
+                Anda tetap dapat menikmati sajian makanan dari Kami dimanapun Anda berada</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="d-flex justify-content-center">
+              <div class="icon-service d-flex align-items-center justify-content-center">
+                <i class="bi bi-cup-straw display-5"></i>
+              </div>
+            </div>
+            <div class="mt-3 text-white text-center">
+              <h5>Dine in</h5>
+              <p>Tempat yang nyaman, udara yang sejuk, dan hidangan yang lezat. 
+                Anda dapat menikmati hidangan di Resto secara langsung</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--section produk-->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Makanan Terlaris</h2>
+      </div>
+    </div>
+
+    <!--section produk tutup-->
+    <div class="row">
+      <div class="col-sn-6 col-lg-3 hovered-card mb-3">
+        <div class="card">
+          <img src="Ayam Gulai.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-tittle text-dark">Ayam Pop</h5>
+            <p class="card-text">Ayam Pop adalah masakan khas Minangkabau berbahan ayam dengan rasa gurih dan lembut.</p>
+            <h4 class="card-text text-dark">Rp 18.000</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-sn-6 col-lg-3 hovered-card mb-3">
+        <div class="card">
+          <img src="Rendang.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-tittle text-dark">Rendang</h5>
+            <p class="card-text">Rendang adalah masakan khas Minangkabau berbahan daging sapi dan rempah-rempah.</p>
+            <h4 class="card-text text-dark">Rp 20.000</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-sn-6 col-lg-3 hovered-card mb-3">
+        <div class="card">
+          <img src="Ayam Gulai.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-tittle text-dark">Ayam gulai</h5>
+            <p class="card-text">Ayam Gulai adalah masakan khas Minangkabau berbahan ayam dengan kuah santan berbumbu rempah.</p>
+            <h4 class="card-text text-dark">Rp 18.000</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-sn-6 col-lg-3 hovered-card mb-3">
+        <div class="card">
+          <img src="tunjang.jpg.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-tittle text-dark">Gulai Tunjang</h5>
+            <p class="card-text">Gulai tunjang adalah masakan Padang berbahan kikil 
+                                 sapi yang dimasak dengan kuah santan dan rempah khas Minangkabau, 
+                                 rasanya gurih.</p>
+            <h4 class="card-text text-dark">Rp 17.000</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--section review-->
+    <div class="container-fluid py-5 bg-dark">
+      <div class="container">
+        <h2 class="text-center text-light mb-2">Apa kata customer ?</h2>
+        <p class="text-center mb-5" style="color: rgba(255,255,255,0.6); font-size: 0.95rem;">kepuasan pelanggan adalah prioritas kami</p>
+        <div class="row g-4">
+
+              <!--card 1-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon"></div>
+              <h5>makannanya enak</h5>
+              <div class="author">- Panji Manusia MIlenium</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Nasi Padangnya enak banget! Rendangnya empuk 
+                dan bumbunya meresap sampai ke dalam. 
+                Sambalnya juga mantap, pedasnya pas.
+              </p>
+            </div>
+          </div>
+        
+          <!--card 2-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon"></div>
+              <h5>minumannya segar, banyak promo, sering dikasih diskon</h5>
+              <div class="author">- saras 000</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Minumannya segar-segar dan banyak pilihan. 
+                Yang paling bikin seneng, promonya sering banget, 
+                jadi makin puas makannya.
+              </p>
+            </div>
+          </div>
+        
+          <!--card 3-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon"></div>
+              <h5>Pelayannanya bagus,karyawannya ramah ramah</h5>
+              <div class="author">- Kapten Tsubasa</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>Pelayanannya mantap 👍 Karyawannya ramah dan responsif, bikin suasana makin nyaman.</p>
+            </div>
+          </div>
+        
+          <!--card 4-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon"></div>
+              <h5>Delivery cepat</h5>
+              <div class="author">- Power Ranger Merah</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Pengirimannya cepat banget, gak perlu nunggu lama. 
+                Pesanan datang dalam kondisi rapi dan masih hangat.
+              </p>
+            </div>
+          </div>
+        
+          <!--card 5-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon"></div>
+              <h5>Tempatnya Bersih</h5>
+              <div class="author">- Satria Baja Hitam</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Kebersihannya terjaga dengan baik, meja dan area makan rapi. 
+                Bikin pelanggan merasa nyaman dan betah.
+              </p>
+            </div>
+          </div>
+        
+          <!--card 6-->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon"></div>
+              <h5>Take away gapake lama, pelayananya cepat</h5>
+              <div class="author">- satria baja hitam</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>Take away-nya gercep banget 🔥 Pelayanannya cepat dan gak bikin antri lama.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--section reservasi-->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <h2 class="text-center mb-2">Reservasi</h2>
+        <p class="text-center text muted mb-5">Jangan sampai kehabisan tempat. Reservasi Sekarang !!!</p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label class="form-label">Nama</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">No. Kontak</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Jumlah Meja</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="d-grid">
+              <button class="btn btn-primary text-light">Reservasi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Section Subscribe-->
+    <div class="container-fluid py-5 footer">
+      <div class="container">
+
+
+        <h5 class="text-center text-light mb-3">Temui Kami</h5>
+        <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+          <a href="https://facebook.com/uername" target="_blank" class="social-icon">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://instagram.com/username" target="_blank" class="social-icon">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://twitter.com/username" target="_blank" class="social-icon">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+        <h5 class="text-center text-light mb-1">Subscribe</h5>
+        <p class="text-center subscribe-muted mb-3">untuk informasi tentang promo</p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="ketikkan Email">
+              <button class="btn btn-danger text-light">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h5 class="fw-bold">Restaurant Saya</h5>
+            <p class="text-muted small">Tempat Makan enak, nyaman, dan terjangkau untuk semua kalangan.</p>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h6 class="fw-bold mb-3">Navigasi</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-muted text-decoration-none">Home</a></li>
+              <li><a href="#" class="text-muted text-decoration-none">Produk</a></li>
+              <li><a href="#" class="text-muted text-decoration-none">promo</a></li>
+              <li><a href="#" class="text-muted text-decoration-none">Reservasi</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6 class="fw-bold mb-3">Kontak</h6>
+            <ul class="list-unstyled text-muted small">
+              <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Jl Kesamben, 123, Jombang</li>
+              <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 812 3456 7890</li>
+              <li><i class="bi bi-envelope-fill me-2"></i>NasiPadang@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border secondary mt-4 mb-3">
+        <p class="text-center text-muted small mb-0">
+          &copy; 2025 kafe saya.All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
